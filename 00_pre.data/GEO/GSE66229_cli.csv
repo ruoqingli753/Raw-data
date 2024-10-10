@@ -1,0 +1,315 @@
+GEO_ID,SCRI No.,"Sample
+Name",Subgroup,MLH1 IHC,Recur,DFS.m,Death,OS.m,ACRG.sub,sex,age,Pathology,"EBV ISH
+0: negative
+1: positive
+NA: Not available (no available tumor blocks)","WHO 1=w/d adeno
+2=m/d adeno
+3=p/d adeno
+4=signet ring
+5= mucinous
+6=papillary adeno
+7=adenosquamous
+8=undifferentiated ca
+9=hepatoid adenoca
+10=tubular adenoca
+11=others (text)",WHO_simple,"LAUREN 1=intestinal, 2=diffuse, 3=mixed","Perineural Invasion(PNI) 0=(-), 1=(+), blank (not reported)","VENOUS INVASION 0=(-), 1=(+), blank (not reported)","lymphatic, lymphovascular inv 0=(-), 1=(+), blank (not reported)",tumor type,stage(TNM),T,N,M,pStage,Stage,Lauren,pnode,# of positive node (+),revised location
+GSM1523727,107,107T ,EP,negative,0,3.97,0,88.73,MSI,M,67,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,20,3,body
+GSM1523728,108,108T ,EP,positive,0,4.03,0,88.23,MSI,F,68,"Tubular adenoca, PD, intestinal",NA,3,p/d,1,0,,0,B-¢ó,pT2N1,2,1,0,II,II,intestinal,40,1,body
+GSM1523729,109,109T ,EP,positive,0,74.97,0,88.23,TP53positive,F,42,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,21,1,antrum
+GSM1523744,160,160T ,EP,Negative,0,89.77,0,105.7,MSI,M,69,"Adenoca, PD, diffuse",0,3,p/d,2,,,,B-¢ò,pT2N1,2,1,0,II,II,diffuse,24,3,antrum
+GSM1523745,164,164T ,EP,positive,0,84.6,0,105.53,TP53neg,M,68,"Adenoca, PD, diffuse",0,3,p/d,2,,,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,52,11,antrum
+GSM1523746,165,165T ,EP,positive,1,5.77,1,25.5,TP53neg,M,56,"Adenoca, MD to PD, mixed",0,3,p/d,3,,,1,B-¢ó,pT2N1,2,1,0,II,II,mixed,22,5,antrum
+GSM1523747,168,168T ,EP,positive,1,6.37,1,8.7,TP53positive,M,60,"Adenoca, PD, mixed",0,3,p/d,2,,,1,B-¢ò,pT2N2,2,2,0,III,III,mixed,27,10,antrum
+GSM1523748,169,169T ,EP,positive,0,81.37,0,104.93,TP53positive,F,68,"PD adenoca and signet-ring cell ca, diffuse",0,3,p/d,2,1,,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,26,1,antrum
+GSM1523765,235,235T ,EP,negative,1,9.6,1,14.2,TP53neg,F,52,"Adenoca, MD, diffuse",0,2,w/d~m/d,2,1,,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,41,7,body
+GSM1523768,244,244T ,MP,positive,1,9.4,1,24.23,TP53neg,M,52,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,,1,B-¢ó,pT2N2,2,2,0,III,III,intestinal,26,9,body
+GSM1523769,253,253T ,MP,positive,1,9.8,1,13.73,TP53neg,F,71,"Signet ring cell ca, diffuse",0,4,signet,2,1,,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,42,18,antrum
+GSM1523770,255,255T ,EP,negative,0,12.23,1,22.07,MSI,M,63,"Adenoca, PD, intestinal",0,3,p/d,1,,,,B-¢ó,pT2N1,2,1,0,II,II,intestinal,43,3,body
+GSM1523771,256,256T ,MP,positive,1,8.93,1,12.67,EMT,F,62,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ó,pT4N2M1,4,2,1,IV,IV,diffuse,41,15,antrum
+GSM1523772,263,263T ,MP,positive,1,5.8,1,10.03,EMT,F,58,"Adenoca, PD, diffuse",0,3,p/d,2,,,,B-¢ô,pT3N1M1,3,1,1,IV,IV,diffuse,19,3,antrum
+GSM1523773,268,268T ,MP,positive,1,2.8,1,4.33,EMT,F,75,"Signet ring cell ca, diffuse",0,4,signet,2,,,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,62,60,body
+GSM1523774,269,269T ,MP,positive,0,67.07,0,97.7,EMT,M,56,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,,,1,B-¢ó,pT2N2,2,2,0,III,III,intestinal,29,10,antrum
+GSM1523775,270,270T ,EP,negative,0,95.23,0,97.6,MSI,F,77,"Adenoca, PD, diffuse",0,3,p/d,2,,,0,B-¢ò,pT2N1,2,1,0,II,II,diffuse,32,2,antrum
+GSM1523776,275,275T ,EP,Negative,0,97.2,0,97.47,MSI,M,48,"Adenoca, PD, diffuse",0,3,p/d,2,,,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,50,4,antrum
+GSM1523777,321,321T ,EP,positive,0,62.2,0,92.93,TP53neg,M,60,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ñ,pT2N3,2,3,0,IV,IV,intestinal,62,18,antrum
+GSM1523778,322,322T ,MP,positive,0,11.7,0,92.63,TP53neg,F,56,"Signet ring cell ca, diffuse",0,4,signet,2,0,,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,43,10,body
+GSM1523779,323,323T ,EP,negative,0,74.2,0,92.6,MSI,F,77,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ò,pT3N2,3,2,0,III,III,diffuse,37,7,antrum
+GSM1523780,324,324T ,MP,Negative,1,2.63,1,16.4,MSI,F,84,"adenoca, MD",0,2,w/d~m/d,1,0,,0,B-III,T4N1,4,1,0,IV,IV,intestinal,11,2,antrum
+GSM1523781,325,325T ,EP,positive,0,2.23,1,2.93,TP53neg,F,37,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,,1,B-¢ó,pT2N3,2,3,0,IV,IV,intestinal,31,29,antrum
+GSM1523782,326,326T ,EP,positive,1,0.4,1,4.4,TP53positive,M,63,"Mucinous adenoca, MD, intestinal",0,5,mucinous,1,0,,1,B-¢ñ,pT2N3,2,3,0,IV,IV,intestinal,26,18,antrum
+GSM1523783,327,327T ,EP,positive,0,89.1,0,91.93,TP53positive,F,55,Mucinous adenoca,0,5,mucinous,2,0,1,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,49,10,body
+GSM1523784,328,328T ,EP,positive,0,84.3,0,91.3,TP53neg,F,44,"Adenoca, PD, diffuse",NA,3,p/d,2,0,,0,B-¢ò,pT2N2,2,2,0,III,III,diffuse,72,7,body
+GSM1523785,329,329T ,EP,positive,0,8.9,1,11.77,MSI,F,60,"Tubular adenoca, PD, intestinal",,3,p/d,1,0,0,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,35,5,antrum
+GSM1523786,330,330T ,EP,positive,0,23.53,1,28.47,TP53positive,F,44,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ô,pT2N3M1,2,3,1,IV,IV,diffuse,25,17,whole
+GSM1523787,331,331T ,EP,positive,0,84.43,0,89.63,TP53positive,F,57,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,0,B-¢ô,pT2N3,2,3,0,IV,IV,intestinal,74,21,body
+GSM1523788,333,333T ,MP,positive,1,7.67,1,8.27,EMT,F,42,Signet ring cell ca,0,4,signet,2,,,1,B-IV,pT2N3M1,2,3,1,IV,IV,diffuse,34,34,body
+GSM1523789,336,336T ,MP,positive,1,8.43,1,11.8,TP53neg,M,69,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ó,pT2N3M1,2,3,1,IV,IV,diffuse,52,18,antrum
+GSM1523790,337,337T ,MP,negative,1,57.27,0,80.93,MSI,M,62,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,46,1,body
+GSM1523791,338,338T ,EP,negative,0,58.7,0,81.13,MSI,M,60,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,26,0,antrum
+GSM1523792,339,339T ,EP,positive,0,59.83,0,80.8,TP53neg,M,55,"Tubular adenoca, WD, intestinal",0,1,w/d~m/d,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,29,0,antrum
+GSM1523793,341,341T ,EP,positive,0,12.57,0,80.73,TP53positive,F,82,"Tubular adenoca, PD with neuroendocrine differentiation, diffuse",0,"3, 11(neuroendocrine differentiation)",p/d,2,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,37,3,body
+GSM1523794,343,343T ,EP,positive,1,0.63,1,27,MSI,M,67,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,B-¢ñ,pT2N3,2,3,0,IV,IV,diffuse,35,16,cardia
+GSM1523795,346,346T ,EP,positive,0,49.07,0,80.07,TP53positive,M,70,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,47,0,"body, antrum"
+GSM1523796,355,355T ,MP,positive,1,49.87,1,57.63,EMT,M,53,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ó,pT3N1,3,1,0,III,III,intestinal,67,1,body
+GSM1523797,361,361T ,EP,positive,1,24.5,1,28.27,MSI,M,63,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ò,pT3N2,3,2,0,III,III,intestinal,29,15,antrum
+GSM1523798,363,363T ,MP,positive,0,28.07,1,61.83,EMT,M,84,"Tubular adenoca, PD, diffuse",1,3,p/d,2,1,0,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,19,5,body
+GSM1523799,369,369T ,EP,positive,0,3.1,0,77.5,TP53positive,M,81,"undifferentiated ca, intestinal",,8,others,1,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,47,4,body
+GSM1523800,372,372T ,EP,negative,0,48.67,0,76.93,MSI,M,73,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N2,2,2,0,III,III,intestinal,59,11,body
+GSM1523801,374,374T ,EP,negative,0,60.63,0,76.93,MSI,M,74,"Tubular adenoca, MD, indeterminate",,2,w/d~m/d,1,0,0,1,B-¢ó,pT2N1,2,1,0,II,II,mixed,36,4,antrum
+GSM1523802,375,375T ,EP,positive,0,1.2,0,76.77,TP53neg,F,70,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,24,1,antrum
+GSM1523803,376,376T ,EP,Negative,0,0.63,1,7.07,TP53positive,F,72,"undifferentiated ca, indeterminate",,8,others,2,1,1,1,B-¢ó,pT3N3,3,3,0,IV,IV,mixed,36,27,cardia
+GSM1523804,377,377T ,EP,positive,0,60.07,0,76.7,TP53positive,F,37,"mucinous adenoca(signet-ring cell type), diffuse",0,5,mucinous,2,1,1,1,B-¢ò,pT3N1,3,1,0,III,III,diffuse,38,3,antrum
+GSM1523805,385,385T ,MP,positive,0,2.97,1,4.47,MSI,F,72,"Tubular adenoca, PD, mixed",0,3,p/d,3,0,0,1,B-¢ó,pT3N2,3,2,0,III,III,mixed,17,11,body
+GSM1523806,388,388T ,EP,positive,1,0.53,1,12.7,TP53neg,M,68,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ô,pT3N2,3,2,0,III,III,intestinal,32,13,body
+GSM1523807,394,394T ,EP,positive,0,71.67,0,73.73,TP53neg,F,70,"Tubular adenoca, WD, intestinal",NA,1,w/d~m/d,1,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,67,3,antrum
+GSM1523808,395,395T ,MP,positive,0,72.5,0,73.5,MSI,M,56,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,0,B-¢ó,pT3N1,3,1,0,III,III,diffuse,20,5,antrum
+GSM1523809,396,396T ,EP,positive,0,11.53,0,73.43,TP53positive,M,77,"Tubular adenoca, MD, intestinal",NA,2,w/d~m/d,1,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,20,2,antrum
+GSM1523810,397,397T ,EP,Negative,0,0.73,0,73.07,MSI,M,66,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,0,1,B-¢ò,pT2N0,2,0,0,I,I,intestinal,21,0,antrum
+GSM1523811,399,399T ,EP,negative,0,4.8,0,72.87,MSI,F,80,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,33,0,antrum
+GSM1523812,401,401T ,MP,positive,0,59,0,72.83,TP53positive,M,62,"Tubular adenoca, PD, diffuse",1,3,p/d,2,0,0,0,B-¢ó,pT3N1,3,1,0,III,III,diffuse,32,5,body
+GSM1523813,402,402T ,MP,negative,0,59.37,0,72.83,MSI,M,70,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,53,5,antrum
+GSM1523814,405,405T ,EP,positive,0,59.47,0,72.73,TP53positive,M,68,"hepatoid adenoca, indeterminate",0,9,hepatoid,1,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,31,2,body
+GSM1523815,413,413T ,MP,positive,1,18.77,1,25.17,TP53neg,M,64,"composite adenoca and neuroendocrine ca, mixed",0,11(composite adenoca and neuroendocrine ca),others,3,0,0,1,B-¢ó,pT2N2,2,2,0,III,III,mixed,66,10,antrum
+GSM1523816,414,414T ,EP,positive,0,36.53,0,72.07,TP53neg,M,66,"Tubular adenoca, MD, intestinal",,2,w/d~m/d,1,1,0,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,52,3,cardia
+GSM1523817,415,415T ,EP,positive,1,5.83,1,6.23,TP53neg,M,73,"PD adenoca with neuroendocrine differentiation, indeterminate",0,3,p/d,2,0,1,1,B-¢ò,pT3N3,3,3,0,IV,IV,diffuse,28,19,body
+GSM1523818,416,416T ,EP,positive,1,7.87,1,9.83,TP53positive,F,66,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,55,43,body
+GSM1523819,419,419T ,EP,positive,0,8.1,1,10.1,TP53positive,F,77,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ô,pT4N1,4,1,0,IV,IV,intestinal,36,6,cardia
+GSM1523820,420,420T ,EP,positive,0,0.77,1,23.7,TP53positive,M,64,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ó,pT3N1,3,1,0,III,III,intestinal,11,1,cardia
+GSM1523821,421,421T ,EP,Negative,0,63.83,0,71.1,MSI,M,64,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ò,pT4N1,4,1,0,IV,IV,intestinal,30,2,body
+GSM1523822,422,422T ,MP,Negative,0,59.7,0,70.97,MSI,M,66,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ó,pT2N0,2,0,0,I,I,intestinal,38,0,antrum
+GSM1523823,423,423T ,EP,negative,0,59.2,0,70.9,MSI,F,64,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ò,pT2N2,2,2,0,III,III,intestinal,55,10,antrum
+GSM1523824,424,424T ,EP,positive,0,70.27,0,70.67,TP53neg,M,64,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,48,2,body
+GSM1523825,425,425T ,EP,Negative,1,2.83,1,4,MSI,M,69,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,1,1,B-¢ò,pT3N2,3,2,0,III,III,intestinal,16,12,antrum
+GSM1523826,426,426T ,EP,positive,0,1.83,1,2.7,TP53neg,M,74,"Tubular adenoca, PD, intestinal",0,3,p/d,1,1,1,1,B-¢ò,pT3N1,3,1,0,III,III,intestinal,22,6,antrum
+GSM1523827,427,427T ,EP,positive,0,69.53,0,70.03,TP53neg,F,36,"mucinous adenoca (signet-ring cell type), diffuse",,5,mucinous,2,0,1,1,B-¢ò,pT3N1,3,1,0,III,III,diffuse,56,6,body
+GSM1523828,428,428T ,MP,positive,1,1.37,1,5.87,MSI,M,72,"papillary adenoca, MD, intestinal",0,"6,2",papillary,1,0,1,1,B-¢ò,pT3N3,3,3,0,IV,IV,intestinal,33,22,antrum
+GSM1523829,430,430T ,EP,positive,0,47.43,0,69.83,TP53neg,M,68,"Tubular adenoca, WD, intestinal",0,1,w/d~m/d,1,0,0,0,B-I,T2N0,2,0,0,II,II,intestinal,45,0,antrum
+GSM1523830,431,431T ,EP,Negative,1,32.43,1,53.43,MSI,M,59,"¢ÙTubular adenoca, MD, intestinal",,2,w/d~m/d,1,0,0,1,B-III,pT2N1,2,1,0,II,II,intestinal,23,1,antrum
+GSM1523831,432,432T ,EP,positive,1,0.1,1,30.9,TP53positive,M,68,"Tubular adenoca, PD, indeterminate",0,3,p/d,2,0,1,1,B-¢ò,pT2N1M1,2,1,1,IV,IV,diffuse,22,4,antrum
+GSM1523832,433,433T ,EP,positive,1,6.7,1,17.67,TP53positive,M,62,"Tubular adenoca, PD, intestinal",0,3,p/d,1,1,1,1,B-¢ó,pT2N2,2,2,0,III,III,intestinal,46,15,body
+GSM1523833,437,437T ,EP,Negative,1,8.03,1,8.87,MSI,M,65,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,89,51,antrum
+GSM1523834,438,438T ,MP,positive,1,18.2,1,44.57,TP53positive,F,66,"Signet ring cell ca, diffuse",,4,signet,2,1,0,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,29,4,body
+GSM1523835,440,440 T ,MP,positive,0,59.03,0,69.3,EMT,M,54,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,35,1,body
+GSM1523836,441,441T ,EP,positive,0,59.97,0,69.23,TP53positive,M,56,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ó,pT3N1,3,1,0,III,III,intestinal,31,1,body
+GSM1523837,442,442T ,EP,positive,0,3,1,26.83,TP53neg,M,70,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,13,0,body
+GSM1523838,443,443T ,EP,negative,0,9.7,1,10.33,MSI,M,65,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ó,pT3N2,3,2,0,III,III,intestinal,47,7,antrum
+GSM1523839,444,444T ,MP,positive,0,68.2,0,69.13,TP53neg,M,57,"mucinous adenoca(signet-ring cell type), diffuse",0,5,mucinous,2,0,0,1,B-¢ò,pT3N2,3,2,0,III,III,diffuse,60,12,body
+GSM1523840,445,445T ,EP,positive,1,5.67,1,22.83,TP53positive,M,78,"PD carcinoma with neuroendocrine and squamous differentiation, indeterminate",0,11,others,2,0,1,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,64,1,cardia
+GSM1523841,446,446T ,EP,positive,1,17.27,1,42.07,TP53positive,M,65,"Tubular adenoca, PD, mixed",1,3,p/d,3,1,0,0,B-¢ó,pT2N1,2,1,0,II,II,mixed,69,1,body
+GSM1523842,447,447T ,EP,positive,0,46.2,1,48.73,TP53neg,M,70,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,34,6,antrum
+GSM1523843,448,448T ,EP,positive,1,10.83,1,25.87,TP53neg,F,65,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ó,pT4N2M1,4,2,1,IV,IV,diffuse,54,15,antrum
+GSM1523844,450,450T ,MP,positive,1,34.67,0,68.9,EMT,M,54,"Tubular adenoca, PD, intestinal",0,3,p/d,1,1,0,1,B-¢ò,pT3N2,3,2,0,III,III,intestinal,14,9,antrum
+GSM1523845,451,451T ,MP,positive,0,6.1,1,9.67,TP53positive,F,77,"undifferentiated ca, diffuse",0,8,others,2,0,1,1,B-¢ò,pT3N3,3,3,0,IV,IV,diffuse,25,19,antrum
+GSM1523846,455,455T ,MP,positive,0,43.8,0,68.37,EMT,M,63,"Tubular adenoca, PD, diffuse",1,3,p/d,2,0,0,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,36,15,cardia
+GSM1523847,456,456T ,EP,negative,0,58.8,0,68.13,MSI,F,31,"undifferentiated ca, intestinal",0,8,others,1,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,51,4,antrum
+GSM1523848,457,457T ,MP,positive,0,49.03,0,68.13,EMT,M,68,"undifferentiated ca, diffuse",1,8,others,2,0,0,1,B-¢ò,pT3N1,3,1,0,III,III,diffuse,35,5,body
+GSM1523849,459,459T ,MP,positive,1,0.53,1,28.03,EMT,M,65,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ó,pT3N1,3,1,0,III,III,intestinal,30,6,antrum
+GSM1523850,460,460T ,MP,positive,1,10.03,1,36.4,EMT,M,38,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ô,pT4N2,4,2,0,IV,IV,diffuse,32,9,body
+GSM1523851,465,465T ,EP,negative,0,9.17,0,67.23,MSI,F,77,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ó,pT2N0,2,0,0,I,I,intestinal,40,0,antrum
+GSM1523852,469,469T ,EP,positive,0,27.8,1,31,TP53neg,M,55,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ó,pT3N1,3,1,0,III,III,intestinal,37,5,antrum
+GSM1523853,470,470T ,EP,positive,0,1.83,0,66.73,TP53neg,M,68,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ó,pT2N0,2,0,0,I,I,intestinal,27,0,antrum
+GSM1523854,471,471T ,EP,Negative,0,58.87,0,66.73,TP53neg,M,69,"mucinous adenoca(signet-ring cell type), diffuse",0,5,mucinous,2,0,0,1,B-¢ñ,pT2N1,2,1,0,II,II,diffuse,31,2,antrum
+GSM1523855,476,476T ,EP,positive,1,12.13,1,21.93,TP53neg,M,77,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ñ,pT2N2,2,2,0,III,III,intestinal,26,7,body
+GSM1523856,477,477T ,MP,negative,0,65.47,0,66.2,MSI,F,51,adenosquamous,0,7,others,2,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,diffuse,55,1,antrum
+GSM1523857,480,480T ,MP,positive,1,5.9,1,14.43,TP53neg,F,75,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ó,pT3N2,3,2,0,III,III,intestinal,35,14,antrum
+GSM1523858,482,482T ,MP,positive,1,5.93,1,17.1,EMT,F,42,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,0,B-¢ô,pT2N0,2,0,0,I,I,diffuse,40,0,"fundus, body, antrum"
+GSM1523859,483,483T ,EP,positive,0,50.03,0,53.13,TP53positive,M,67,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,40,3,body
+GSM1523860,485,485T ,EP,negative,0,0.73,1,42.2,MSI,M,66,"Tubular adenoca, PD, mixed",0,3,p/d,3,0,0,1,B-¢ò,pT2N0,2,0,0,I,I,mixed,32,0,antrum
+GSM1523861,488,488T ,EP,partial loss,0,59.37,0,64.8,TP53positive,M,64,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ñ,pT2N0,2,0,0,I,I,intestinal,34,0,body
+GSM1523862,489,489T ,MP,positive,1,11.33,1,21,EMT,M,41,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,54,19,body
+GSM1523863,493,493T ,EP,negative,0,59.83,0,64.57,MSI,F,64,"Tubular adenoca, PD, mixed",0,3,p/d,3,0,0,1,B-¢ò,pT2N0,2,0,0,I,I,mixed,41,0,antrum
+GSM1523864,501,501T ,EP,Negative,0,60.2,0,63.97,MSI,M,52,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,47,0,body
+GSM1523865,502,502T ,EP,positive,1,24.8,0,63.7,TP53neg,M,70,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,1,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,33,5,body
+GSM1523866,503,503T ,MP,positive,0,3.9,1,4.37,EMT,F,86,"Tubular adenoca, PD, intestinal",0,3,p/d,1,1,1,1,B-¢ó,pT3N2M1,3,2,1,IV,IV,intestinal,16,10,antrum
+GSM1523867,505,505T ,EP,positive,1,9.7,1,33.27,MSI,M,54,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,unclassifiable,pT2N2,2,2,0,III,III,intestinal,38,8,antrum
+GSM1523868,510,510T ,EP,Negative,1,3.3,0,63.27,MSI,M,62,"Tubular adenoca, PD, mixed",0,3,p/d,3,1,0,1,B-¢ò,pT3N2,3,2,0,III,III,mixed,37,11,body and antrum
+GSM1523869,514,514T ,EP,positive,0,14.1,0,62.53,TP53positive,F,67,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,unclassifiable,pT2N1,2,1,0,II,II,diffuse,46,5,body
+GSM1523870,516,516T ,EP,Negative,0,59.17,0,62.47,MSI,M,75,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,52,1,antrum
+GSM1523871,517,517T ,EP,Negative,0,21.77,0,62.37,MSI,F,70,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,37,6,antrum
+GSM1523872,518,518T ,MP,positive,1,13.6,1,15.03,TP53neg,F,61,"Tubular adenoca, PD, diffuse",NA,3,p/d,2,1,0,1,B-¢ô,pT4N3M1,4,3,1,IV,IV,diffuse,61,26,body
+GSM1523873,519,519T ,EP,positive,1,0.6,1,24.03,TP53positive,M,57,"undifferentiated ca, indeterminate",1,8,others,2,0,0,1,B-¢ó,pT2N2M1,2,2,1,IV,IV,diffuse,40,12,cardia and body
+GSM1523874,520,520T ,EP,positive,0,59.83,0,62.1,TP53neg,F,72,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ò,pT2N0,2,0,0,I,I,intestinal,36,0,antrum
+GSM1523875,522,522T ,EP,positive,1,6.23,1,8.47,TP53positive,M,79,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-III,PT2N1,2,1,0,II,II,intestinal,52,3,body
+GSM1523876,523,523T ,EP,Negative,0,58.7,0,61.9,MSI,M,76,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,33,0,antrum
+GSM1523877,524,524T ,EP,Negative,1,4.13,1,13.1,TP53neg,M,65,"Tubular adenoca, MD, intestinal/",0,2,w/d~m/d,1,0,1,1,B-III,pT2N2,2,2,0,III,III,intestinal,44,12,body
+GSM1523878,525,525T ,EP,positive,0,59.7,0,61.87,TP53positive,M,56,"Tubular adenoca, MD, intestinal",1,2,w/d~m/d,1,0,1,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,28,2,cardia
+GSM1523879,528,528T ,EP,positive,0,0.67,0,61.17,TP53neg,M,63,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ò,pT3N3,3,3,0,IV,IV,intestinal,37,20,body
+GSM1523880,529,529T ,EP,negative,0,54.97,0,60.97,MSI,F,54,"undifferentiated ca, indeterminate",0,8,others,2,0,0,1,B-¢ò,pT2N0,2,0,0,I,I,diffuse,46,0,body
+GSM1523881,532,532T ,EP,positive,1,13.73,1,14.9,TP53positive,M,74,"Papillary adenoca, MD, intestinal",0,6,papillary,1,1,1,1,B-¢ó,pT2N2,2,2,0,III,III,intestinal,55,14,cardia
+GSM1523882,533,533T ,EP,positive,0,59.7,0,60.7,TP53positive,M,36,"Tubular adenoca, PD, diffuse",1,3,p/d,2,1,0,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,75,7,body
+GSM1523883,534,534T ,EP,positive,1,30.03,1,39.53,TP53positive,M,77,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-III,pT2N1,2,1,0,II,II,diffuse,31,2,antrum
+GSM1523884,538,538T ,MP,positive,0,3.07,0,60.43,TP53positive,M,50,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ô,pT3N1,3,1,0,III,III,diffuse,45,6,body
+GSM1523885,540,540T ,EP,negative,0,59.97,0,60.23,MSI,F,53,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,B-¢ñ,pT2N0,2,0,0,I,I,diffuse,53,0,antrum
+GSM1523886,541,541T ,MP,positive,1,3.97,1,5.6,EMT,M,49,"Signet ring cell ca, diffuse",0,4,signet,2,1,1,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,42,22,body
+GSM1523887,542,542T ,EP,positive,0,59.43,0,60.2,TP53neg,M,46,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ò,pT2N0,2,0,0,I,I,diffuse,51,0,antrum
+GSM1523888,544,544T ,EP,Negative,0,59.83,0,59.9,MSI,M,52,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,0,1,B-¢ò,pT2N0,2,0,0,I,I,intestinal,44,0,antrum
+GSM1523889,547,547T ,EP,positive,0,55.3,0,59.67,MSI,M,74,"papillary adenoca, intestinal",0,6,papillary,1,0,1,0,B-¢ñ,pT2N0,2,0,0,I,I,intestinal,45,0,cardia
+GSM1523890,550,550T ,EP,positive,1,57.2,0,59.57,TP53neg,F,33,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,94,9,cardia and body
+GSM1523891,551,551T ,MP,positive,0,48.63,0,59.57,TP53neg,F,53,"mucinous adenoca(signet-ring cell type), intestinal",0,5,mucinous,1,0,0,1,B-¢ò,pT2N0,2,0,0,I,I,intestinal,39,0,antrum
+GSM1523892,553,553T ,EP,positive,0,47.5,0,59.47,TP53neg,M,59,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ó,pT2N0,2,0,0,I,I,intestinal,53,0,antrum
+GSM1523893,554,554T ,EP,positive,1,3.97,1,20.1,TP53neg,M,74,"Papillary adenoca, intestinal",0,6,papillary,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,61,0,body
+GSM1523894,556,556T ,EP,positive,1,18.63,1,35.77,TP53positive,M,56,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,77,0,body
+GSM1523895,557,557T ,EP,positive,0,49.03,0,59.03,TP53neg,M,66,"Tubular adenoca, MD, intestinal ",0,2,w/d~m/d,1,0,0,0,B-III,pT2N0,2,0,0,I,I,intestinal,32,0,antrum
+GSM1523896,559,559T ,EP,positive,1,18.3,1,28.03,TP53positive,M,51,"Tubular adenoca, MD, intestinal",1,2,w/d~m/d,1,1,0,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,64,1,body
+GSM1523897,560,560T ,EP,positive,0,57.5,0,58.87,TP53neg,F,78,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,54,0,antrum
+GSM1523898,561,561T ,EP,positive,0,49.57,0,58.83,TP53positive,M,60,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,0,B-¢ñ,pT2N0,2,0,0,I,I,intestinal,73,0,antrum
+GSM1523899,566,566T ,EP,Negative,0,57.1,0,58.07,TP53positive,F,60,"Papillary adenoca, MD, intestinal",0,6,papillary,1,0,0,1,B-¢ñ,pT2N1,2,1,0,II,II,intestinal,142,1,cardia
+GSM1523901,571,571T ,EP,negative,0,53.57,0,57.47,MSI,F,65,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,0,0,B-¢ò,pT2N0,2,0,0,I,I,intestinal,61,0,antrum
+GSM1523903,584,584T ,EP,positive,1,38.43,1,39.8,MSI,M,60,"Tubular adenoca, MD, intestinal",NA,2,w/d~m/d,1,0,0,1,B-¢ó,pT4N0,4,0,0,III,III,intestinal,41,0,body
+GSM1523904,586,586T ,EP,positive,1,42.37,0,55.37,TP53neg,M,56,"papillary adenoca, intestinal",0,6,papillary,1,1,1,1,B-¢ó,pT2N3,2,3,0,IV,IV,intestinal,57,23,cardia
+GSM1523905,588,588T ,EP,positive,0,44.4,0,55.3,TP53neg,M,66,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ô,pT2N1,2,1,0,II,II,diffuse,46,6,antrum
+GSM1523906,589,589T ,MP,positive,0,46.03,0,55.3,EMT,M,53,"lymphoepithelioma-like carcinoma, diffuse",NA,11(lymphoepithelioma-like carcinoma),others,2,0,0,0,B-¢ó,pT2N0,2,0,0,I,I,diffuse,14,0,body
+GSM1523908,592,592T ,EP,positive,0,48.97,0,55.07,TP53neg,F,44,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,B-¢ò,pT4N3,4,3,0,IV,IV,diffuse,58,23,body
+GSM1523909,595,595T ,EP,negative,0,49.33,0,54.53,MSI,M,74,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,41,1,antrum
+GSM1523910,596,596T ,EP,negative,0,48.5,0,54.33,MSI,M,53,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,1,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,55,6,"body, antrum"
+GSM1523911,603,603T ,EP,positive,1,6.97,1,21.83,MSI,F,72,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,1,1,B-¢ñ,pT3N3,3,3,0,IV,IV,intestinal,45,28,antrum
+GSM1523918,207,Tr_207,MP,positive,1,25.9,1,28.13,EMT,M,62,"Mucinous adenoca, diffuse",0,5,mucinous,2,1,,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,65,8,antrum
+GSM1523919,101,Tr_101,EP,positive,0,78.2,0,84.1,TP53positive,M,64,"Tubular adenoca, PD, intestinal",0,3,p/d,1,1,0,1,B-¢ò,pT4N1,4,1,0,IV,IV,intestinal,42,1,body
+GSM1523920,105,Tr_105,EP,positive,1,3.23,1,9.33,TP53neg,M,44,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,0,B-¢ó,pT3N0,3,0,0,II,II,intestinal,12,0,body
+GSM1523921,106,Tr_106,EP,positive,0,61,0,83.3,MSI,M,42,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,diffuse,59,2,antrum
+GSM1523922,112,T112,EP,positive,1,16.57,1,23.6,TP53neg,M,65,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ó,pT2N1,2,1,0,II,II,intestinal,29,2,body
+GSM1523923,113,Tr_113,EP,positive,1,11.7,1,26.4,TP53positive,M,59,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,59,2,
+GSM1523924,114,Tr_114,EP,positive,0,73.53,0,82.2,TP53neg,M,52,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,diffuse,40,1,body
+GSM1523925,115,Tr_115,EP,positive,1,4.37,1,6.3,TP53neg,F,59,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ó,pT2N1,2,1,0,II,II,diffuse,21,2,antrum
+GSM1523926,116,Tr_116,EP,positive,0,61.13,0,69.03,TP53positive,M,69,"¢ÙTubular adenoca, MD, intestinal/ ¢ÚTubular adenoca, WD, intestinal/ ¢ÛTubular adenoca, WD, intestinal",0,¢Ù2/ ¢Ú1/ ¢Û1,w/d~m/d,1,0,0,0,¢ÙB-¢ó+ (mimicking EGC type IIa+IIb)/ ¢ÚEGC type IIc/ ¢ÛEGC type Iic,¢ÙpT2N1/ ¢ÚpT1N1/ ¢ÛpT1N1,¢Ù2/ ¢Ú1/ ¢Û1,1,0,¢ÙII/ ¢ÚI/ ¢ÛI,II,intestinal,38,5,cardia
+GSM1523927,117,Tr_117,EP,positive,0,80.77,0,80.77,TP53positive,M,46,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,1,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,52,3,body
+GSM1523928,118,Tr_118,EP,positive,0,17.93,1,54.13,TP53neg,M,69,"Papillary adenoca, intestinal",0,6,papillary,1,0,,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,22,2,cardia
+GSM1523929,11,Tr_11,EP,negative,0,60.23,0,88.33,MSI,F,67,"Adenocar, PD, intestinal",0,3,p/d,1, ,,,B-¢ò,pT2N2,2,2,0,III,III,intestinal,41,9,antrum
+GSM1523930,121,Tr_121,EP,positive,0,61.17,0,78.53,TP53neg,M,51,"Tubular adenoca, WD, intestinal",0,1,w/d~m/d,1,0,0,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,34,3,antrum
+GSM1523931,124,Tr_124,EP,positive,0,71.93,0,77.6,TP53positive,F,61,"Tubular adenoca, PD, diffuse",1,3,p/d,2,0,0,1,B-¢ó,pT2N1,2,1,0,II,II,diffuse,39,3,antrum
+GSM1523932,128,Tr_128,EP,positive,1,0.8,1,12.67,TP53neg,F,66,"Tubular adenoca, MD, intestinal",NA,2,w/d~m/d,1,0,0,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,60,5,antrum
+GSM1523933,129,Tr_129,EP,Negative,0,69.53,0,75.27,MSI,M,74,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,1,1,B-¢ó,pT2N1,2,1,0,II,II,diffuse,38,2,antrum
+GSM1523934,12,T12,EP,positive,1,11.63,1,12.8,TP53neg,M,70,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ó,pT3N3,3,3,0,IV,IV,intestinal,45,26,body
+GSM1523935,132,Tr_132,MP,positive,0,85.27,0,87.4,EMT,M,64,"Signet ring cell ca, diffuse",0,4,signet,2,1,,1,B-¢ó,pT3N0,3,0,0,II,II,diffuse,33,0,antrum
+GSM1523936,133,Tr_133,MP,positive,1,10.83,1,17.57,TP53positive,M,70,"Signet ring cell ca, diffuse",0,4,signet,2,1,,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,36,1,antrum
+GSM1523937,134,Tr_134,EP,positive,1,9.77,1,19.67,TP53positive,M,81,"Tubular adenoca, MD, intestinal",NA,2,w/d~m/d,1,0,0,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,29,3,antrum
+GSM1523938,135,Tr_135,MP,positive,1,0.7,1,5.77,EMT,F,53,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,1,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,45,44,body
+GSM1523939,136,Tr_136,MP,positive,1,7.93,1,11.23,EMT,F,28,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,39,31,body
+GSM1523940,137,Tr_137,EP,positive,1,13.87,1,20.03,TP53neg,M,69,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,1,1,B-¢ó,pT3N3,3,3,0,IV,IV,intestinal,29,26,antrum
+GSM1523941,138,Tr_138,EP,positive,1,0.6,1,4.53,TP53neg,M,70,"Tubular adenoca, PD, diffuse",1,3,p/d,2,1,1,1,B-¢ó,pT2N3,2,3,0,IV,IV,diffuse,42,28,body
+GSM1523942,139,Tr_139,EP,Positive,0,69.57,0,70.27,TP53neg,M,70,"¢ÙTubular adenoca, MD, intestinal/ ¢ÚTubular adenoca, WD, intestinal",0,¢Ù2/ ¢Ú1,w/d~m/d,1,0,0,0,¢ÙB-¢ò/ ¢ÚECG type I,¢ÙpT2N2/ ¢ÚpT1N2,¢Ù2/ ¢Ú1,2,0,¢ÙIII/ ¢ÚII,III,intestinal,32,8,antrum
+GSM1523943,140,Tr_140,EP,positive,1,2.93,1,5.53,TP53neg,F,72,"Tubular adenoca, PD, diffuse",0,3,p/d,2, ,,1,B-¢ô,pT3N2M1,3,2,1,IV,IV,diffuse,31,21,cardia
+GSM1523944,141,Tr_141,EP,positive,0,11.5,0,69.63,TP53positive,M,71,"undifferentiated ca, diffuse",0,8,others,2,0,0,0,B-¢ò,pT2N2,2,2,0,III,III,diffuse,44,12,antrum
+GSM1523945,142,Tr_142,MP,negative,1,15.27,1,17.53,EMT,M,53,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ô,pT4N3,4,3,0,IV,IV,diffuse,34,29,entire
+GSM1523946,143,Tr_143,EP,positive,0,3.7,0,68.93,TP53positive,M,50,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ò,pT2N2,2,2,0,III,III,intestinal,36,11,antrum
+GSM1523947,144,Tr_144,EP,Negative,0,64.23,0,68.43,MSI,F,74,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ò,pT3N0,3,0,0,II,II,intestinal,13,0,antrum
+GSM1523948,145,Tr_145,MP,positive,1,15.33,1,27.47,EMT,M,52,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,1,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,35,24,body
+GSM1523949,146,Tr_146,MP,positive,1,3.23,1,10.1,EMT,F,51,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,1,1,B-¢ô,pT3N2M1,3,2,1,IV,IV,diffuse,12,9,body
+GSM1523950,148,Tr_148,EP,positive,0,58.83,0,68.2,TP53neg,M,57,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ò,pT2N3,2,3,0,IV,IV,intestinal,55,18,antrum
+GSM1523951,14,T14,EP,positive,1,36.5,1,53.03,TP53positive,M,66,"Adenoca, PD, diffuse",1,3,p/d,2,0,,1,B-¢ó,pT4N2M1,4,2,1,IV,IV,diffuse,33,7,cardia
+GSM1523952,150,Tr_150,EP,Negative,0,100.87,0,100.87,MSI,F,54,"Adenoca, PD, diffuse",0,3,p/d,2, ,,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,51,2,antrum
+GSM1523953,151,Tr_151,EP,positive,0,84.77,0,84.77,TP53neg,M,70,"Adenoca, PD, diffuse",,3,p/d,2, ,,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,50,8,antrum
+GSM1523954,152,Tr_152,EP,positive,0,60.23,0,100.87,TP53neg,M,62,"Adenoca, PD, diffuse",0,3,p/d,2, ,,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,37,3,antrum
+GSM1523955,154,Tr_154,MP,positive,1,31.4,1,34.37,TP53positive,M,49,"Adenoca, MD, mixed",0,2,w/d~m/d,1,1,,1,B-¢ó,pT2N2,2,2,0,III,III,mixed,27,8,body
+GSM1523956,155,Tr_155,EP,positive,0,19.07,1,31.13,TP53neg,M,76,"Adenoca, WD, mixed",0,1,w/d~m/d,1, ,,,B-¢ò,pT2N1,2,1,0,II,II,mixed,41,1,body
+GSM1523957,156,Tr_156,EP,positive,0,70.03,0,100.63,TP53positive,F,37,"Adenoca, PD, intestinal",,3,p/d,1, ,,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,18,6,body
+GSM1523958,157,Tr_157,EP,positive,0,97.2,0,100.23,TP53positive,M,56,"Adenoca, PD, diffuse",1,3,p/d,2, ,,,B-¢ó,pT2N1,2,1,0,II,II,diffuse,52,5,body
+GSM1523959,16,T16,EP,positive,1,10.2,1,17.43,TP53neg,M,54,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,1,,1,B-¢ò,pT2N3,2,3,0,IV,IV,intestinal,30,18,antrum
+GSM1523960,171,Tr_171,EP,positive,0,61.4,0,99,TP53neg,F,70,"Adenoca, MD, intestinal",0,2,w/d~m/d,1, ,,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,30,1,body
+GSM1523961,172,Tr_172,EP,partial loss,0,6.17,1,9.5,MSI,M,63,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,1,,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,16,2,antrum
+GSM1523962,173,Tr_173,MP,positive,1,14.47,1,20.13,EMT,M,48,"Signet ring cell ca, diffuse",0,4,signet,2,1,,,B-¢ô,pT3N2,3,2,0,III,III,diffuse,44,10,body
+GSM1523963,175,Tr_175,EP,positive,1,40.83,1,45.77,TP53neg,F,69,"Adenoca, PD, intestinal",0,3,p/d,1, ,,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,29,4,antrum
+GSM1523964,177,Tr_177,EP,negative,0,98.53,0,98.53,MSI,M,61,"Adenoca, MD, intestinal",0,2,w/d~m/d,1, ,,,B-¢ó,pT2N1,2,1,0,II,II,intestinal,38,4,body
+GSM1523965,17,T17,MP,positive,1,8.9,1,11.47,EMT,M,52,"Signet ring cell ca, diffuse",0,4,signet,2,1,,1,B-¢ñ,pT3N3,3,3,0,IV,IV,diffuse,45,21,antrum
+GSM1523966,180,Tr_180,EP,positive,0,0.77,1,51.8,TP53neg,M,35,"Adenoca, PD, diffuse",0,3,p/d,2, ,,1,B-¢ó,pT2N3,2,3,0,IV,IV,diffuse,48,16,body
+GSM1523967,182,Tr_182,EP,positive,0,93.47,0,98.47,TP53positive,M,52,Undifferentiated ca,0,8,others,2,,,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,15,8,cardia
+GSM1523968,185,Tr_185,MP,positive,1,35.87,1,45.17,EMT,F,44,"Signet ring cell ca, diffuse",0,4,signet,2,1,,0,B-¢ô,pT3N0M1,3,0,1,IV,IV,diffuse,36,0,entire
+GSM1523969,186,Tr_186,MP,positive,1,12.13,1,17.9,TP53neg,M,69,"Adenoca, PD, diffuse",0,3,p/d,2, ,,1,B-¢ô,pT3N1,3,1,0,III,III,diffuse,36,3,antrum
+GSM1523970,187,Tr_187,EP,negative,1,7.4,1,15.7,TP53neg,F,77,"Adenoca, PD, mixed",0,3,p/d,2, ,,1,B-¢ò,pT2N1,2,1,0,II,II,mixed,43,6,antrum
+GSM1523971,188,Tr_188,MP,positive,1,11.67,1,13.3,EMT,F,45,"Signet ring cell ca, diffuse",0,4,signet,2, ,,0,B-¢ô,pT3N1,3,1,0,III,III,diffuse,38,4,cardia
+GSM1523972,189,Tr_189,EP,positive,1,6.03,1,6.5,TP53neg,M,70,"Tubular adenoca, (MD) and PD, mixed",0,3,p/d,2,0,,1,B-¢ó,pT2N1M1,2,1,1,IV,IV,mixed,28,1,antrum
+GSM1523973,18,T18,EP,positive,0,23.77,0,87.27,TP53neg,M,62,"Adenoca, PD, diffuse",0,3,p/d,2,0,,0,B-¢ó,pT2N2,2,2,0,III,III,diffuse,50,8,antrum
+GSM1523974,190,Tr_190,EP,positive,0,91.93,0,98.23,TP53neg,M,61,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,41,6,body
+GSM1523975,192,Tr_192,MP,positive,1,1.9,1,7.2,EMT,M,67,"Tubular adenoca, PD, diffuse",1,3,p/d,2, ,,,B-¢ô,pT3N1,3,1,0,III,III,diffuse,68,3,antrum
+GSM1523976,193,Tr_193,EP,positive,1,24.53,1,56,TP53neg,M,69,"Tubular adenoca, PD, mixed",NA,3,p/d,2, ,,1,B-¢ó,pT2N2,2,2,0,III,III,mixed,59,7,antrum
+GSM1523977,197,Tr_197,EP,positive,0,0.7,1,1,TP53neg,M,63,"Hepatoid adenoca, diffuse",0,9,hepatoid,2,0,,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,30,5,antrum
+GSM1523978,19,T19,EP,positive,1,13.03,1,16.23,TP53positive,F,67,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ó,pT2N3,2,3,0,IV,IV,diffuse,58,20,cardia
+GSM1523979,1,Tr_1,EP,Negative,1,3.37,1,9.43,MSI,M,78,"Adenoca, MD",0,2,w/d~m/d,1,,,,B-¢ó,pT3N2,3,2,0,III,III,intestinal,30,7,antrum
+GSM1523980,201,Tr_201,MP,positive,0,4.33,1,6.7,TP53positive,F,77,"Adenoca, PD, diffuse",0,3,p/d,2,,,,B-¢ô,pT3N2,3,2,0,III,III,diffuse,34,14,cardia
+GSM1523981,202,Tr_202,MP,positive,0,77.07,0,97.2,EMT,M,51,"Signet ring cell ca, diffuse",0,4,signet,2, ,,,B-¢ò,pT2N1,2,1,0,II,II,diffuse,37,5,antrum
+GSM1523982,204,Tr_204,MP,positive,0,4.63,1,8.7,EMT,M,56,"Signet ring cell ca, diffuse",0,4,signet,2,1,,1,B-¢ó,pT3N2M1,3,2,1,IV,IV,diffuse,29,10,antrum
+GSM1523983,205,Tr_205,EP,negative,1,5.67,1,10.1,MSI,M,61,"Adenoca, PD, diffuse",0,3,p/d,2,,,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,35,7,cardia
+GSM1523984,206,Tr_206,MP,positive,0,21.8,0,96.97,EMT,M,57,"Adenoca, PD, diffuse",NA,3,p/d,2,,,1,B-¢ò,pT2N1,2,1,0,II,II,diffuse,37,4,antrum
+GSM1523985,209,Tr_209,EP,positive,0,0.73,1,77.53,TP53positive,M,70,"Adenoca, MD, intestinal",1,2,w/d~m/d,1, ,,,B-¢ò,pT2N2,2,2,0,III,III,intestinal,26,8,cardia
+GSM1523986,20,T20,EP,positive,1,73.73,0,86.8,TP53positive,M,72,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ò,pT3N2,3,2,0,III,III,diffuse,47,8,antrum
+GSM1523987,212,Tr_212,EP,positive,1,13.1,1,18.27,TP53neg,F,30,"Adenoca, PD, diffuse",0,3,p/d,2, ,,,B-¢ó,pT3N2,3,2,0,III,III,diffuse,34,7,body
+GSM1523988,213,Tr_213,MP,positive,0,0.77,1,14.83,EMT,M,65,"Adenoca, PD, diffuse",0,3,p/d,2,,,,B-¢ô,pT2N2,2,2,0,III,III,diffuse,21,13,antrum
+GSM1523989,21,T21,MP,positive,0,64.97,0,86.7,TP53neg,M,46,"Adenoca, PD, intestinal",0,3,p/d,1,0,,1,B-¢ó,pT3N3,3,3,0,IV,IV,intestinal,37,22,body
+GSM1523990,225,Tr_225,MP,positive,1,5.73,1,14.17,EMT,M,40,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ò,pT2N2,2,2,0,III,III,diffuse,49,9,body
+GSM1523991,226,Tr_226,MP,positive,0,12.1,0,95.2,TP53neg,F,63,"Adenoca, MD, intestinal",NA,2,w/d~m/d,1,,,,B-¢ò,pT2N1,2,1,0,II,II,intestinal,29,2,antrum
+GSM1523992,227,Tr_227,EP,negative,1,15.63,1,20.13,TP53positive,F,70,"Adenoca, PD, diffuse",0,3,p/d,2,,,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,35,22,antrum
+GSM1523993,228,Tr_228,EP,positive,0,35.47,1,68.13,TP53neg,M,69,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ó,pT2N2,2,2,0,III,III,intestinal,42,9,antrum
+GSM1523994,22,T22,EP,positive,0,35.4,0,86.37,TP53neg,M,63,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ñ,pT2N2,2,2,0,III,III,intestinal,40,13,antrum
+GSM1523995,236,Tr_236,EP,positive,0,6.07,1,6.37,TP53neg,M,82,"Adenoca, MD to PD, mixed",0,3,p/d,2,,,1,B-¢ò,pT2N2,2,2,0,III,III,mixed,23,9,cardia
+GSM1523996,237,Tr_237,EP,Negative,1,30,1,35.2,TP53positive,F,75,"Signet ring cell ca, diffuse",0,4,signet,2, ,,,B-¢ò,pT2N1,2,1,0,II,II,diffuse,28,2,antrum
+GSM1523997,238,Tr_238,EP,positive,1,18.17,1,25.2,TP53neg,F,72,"Adenoca, MD, diffuse",0,2,w/d~m/d,2,0,,1,B-¢ó,pT4N3,4,3,0,IV,IV,diffuse,37,16,antrum
+GSM1523998,23,T23,EP,positive,1,9.37,1,21.23,TP53neg,M,59,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ò,pT2N2,2,2,0,III,III,intestinal,47,11,antrum
+GSM1523999,240,Tr_240,EP,positive,0,57.63,0,93.87,TP53neg,M,66,"Adenoca, WD, intestinal",0,1,w/d~m/d,1, ,,1,B-¢ñ,pT2N1,2,1,0,II,II,intestinal,33,6,body
+GSM1524000,241,Tr_241,MP,Negative,0,2.1,0,93.87,MSI,F,69,"Signet ring cell ca, diffuse",0,4,signet,2,0,,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,29,9,antrum
+GSM1524001,246,Tr_246,EP,positive,0,88.2,0,93.63,TP53neg,M,58,"Adenoca, MD, intestinal",0,2,w/d~m/d,1, ,,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,37,4,body
+GSM1524002,24,Tr_24,EP,Negative,0,5.07,0,86.13,MSI,M,64,"Adenoca, MD to PD, mixed",0,"2,3",p/d,3,,,1,B-¢ó,pT3N2,3,2,0,III,III,mixed,25,8,cardia
+GSM1524003,25,T25,EP,positive,0,82.4,0,85.93,TP53neg,F,60,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1, ,,1,Mimicking EGC 2b+1,pT2N2,2,2,0,III,III,intestinal,18,10,antrum
+GSM1524004,26,T26,EP,positive,1,0.7,1,5.93,TP53neg,M,58,"Adenoca, PD, diffuse",1,3,p/d,2,0,,1,B-¢ò,pT4N3M1,4,3,1,IV,IV,diffuse,32,19,body
+GSM1524005,282,Tr_282,EP,positive,1,2.1,1,9.47,TP53neg,M,71,"Adenoca, MD, intestinal",0,2,w/d~m/d,1, ,,,B-¢ò,pT2N3M1,2,3,1,IV,IV,intestinal,33,18,antrum
+GSM1524006,287,Tr_287,MP,positive,1,12.13,1,26.27,EMT,F,41,Signet ring cell ca,0,4,signet,2,,,,B-¢ô,pT2N2,2,2,0,III,III,diffuse,48,7,body
+GSM1524007,288,Tr_288,EP,positive,1,5.57,1,10.37,TP53neg,F,48,"Signet ring cell ca, diffuse",0,4,signet,2, ,,,B-¢ò,pT3N1M1,3,1,1,IV,IV,diffuse,13,4,cardia
+GSM1524008,28,T28,EP,positive,1,6.7,1,10.83,MSI,M,39,"Adenoca, PD, diffuse",0,3,p/d,2,1,,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,54,17,antrum
+GSM1524009,299,Tr_299,MP,positive,1,59.17,1,65,TP53neg,F,60,"Adenoca, PD, diffuse",0,3,p/d,2,1,,0,B-¢ó,pT2N2,2,2,0,III,III,diffuse,23,10,cardia
+GSM1524010,29,T29,MP,positive,1,18.53,1,19.7,EMT,F,73,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ô,pT2N2,2,2,0,III,III,diffuse,23,9,body
+GSM1524011,301,Tr_301,EP,positive,0,58.63,0,90.2,TP53neg,F,63,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,56,6,antrum
+GSM1524012,30,T30,EP,positive,0,83.03,0,85.23,TP53neg,M,64,"Adenoca, PD, diffuse",0,3,p/d,2,1,,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,63,3,antrum
+GSM1524013,311,Tr_311,EP,positive,0,70.2,0,89.9,TP53neg,M,63,"Adenoca, MD, intestinal",,2,w/d~m/d,1,0,,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,24,6,body
+GSM1524014,318,Tr_318,EP,positive,1,7.67,1,11.33,TP53neg,F,66,"Adenoca, PD, intestinal",0,3,p/d,1,1,,1,B-¢ó,pT4N3M1,4,3,1,IV,IV,intestinal,49,40,antrum
+GSM1524015,319,Tr_319,EP,positive,1,6.07,1,24.87,TP53neg,M,61,"Tubular adenoca, MD with focal papillary adenoca(20%), intestinal",0,"2,6(20%)",papillary,1,0,,0,B-¢ó,pT4N1,4,1,0,IV,IV,intestinal,10,3,antrum
+GSM1524016,31,T31,EP,positive,1,14,1,27.8,TP53positive,M,24,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ó,pT3N3M1,3,3,1,IV,IV,diffuse,41,31,body
+GSM1524017,32,T32,EP,positive,0,10.7,0,85.03,TP53neg,M,67,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ó,pT2N2,2,2,0,III,III,intestinal,44,14,antrum
+GSM1524018,33,Tr_33,EP,positive,0,73.2,0,84.77,TP53positive,M,64,"Tubular adenoca, MD, mixed",0,2,w/d~m/d,1,1,0,1,B-¢ó,pT3N1,3,1,0,III,III,mixed,52,5,antrum
+GSM1524019,34,T34,EP,positive,1,6.17,1,8.33,TP53neg,M,70,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,30,24,body
+GSM1524020,35,Tr_35,EP,positive,0,61.17,0,84.3,TP53positive,M,51,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,1,1,B-¢ó,pT2N2,2,2,0,III,III,intestinal,44,14,body
+GSM1524021,36,T36,EP,positive,0,11.9,1,12.93,TP53positive,F,56,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,0,0,B-¢ó,pT3N1,3,1,0,III,III,diffuse,50,1,body
+GSM1524022,38,T38,MP,positive,1,3.47,1,8.03,TP53neg,F,65,"Signet ring cell ca, diffuse",0,4,signet,2,1,1,1,B-¢ô,pT3N3,3,3,0,IV,IV,diffuse,61,61,body
+GSM1524023,39,Tr_39,EP,positive,0,81.43,0,83.83,TP53neg,F,77,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ô,pT4N2,4,2,0,IV,IV,intestinal,41,14,antrum
+GSM1524024,3,Tr_3,EP,positive,1,49.47,1,89.43,TP53positive,M,61,"Signet ring cell ca, diffuse",,4,signet,2,1,,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,53,9,antrum
+GSM1524025,41,Tr_41,EP,Negative,0,14.1,1,81.83,MSI,M,71,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,0,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,46,8,antrum
+GSM1524026,42,T42,MP,positive,1,81.37,0,83.6,EMT,F,52,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,29,5,body
+GSM1524027,45,T45,EP,positive,0,57.77,1,59.7,TP53neg,M,61,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,31,10,body
+GSM1524028,47,T47,EP,positive,1,26.57,1,47.7,TP53positive,M,72,"Tubular adenoca, PD, intestinal",0,3,p/d,1,0,0,0,B-¢ó,pT2N2,2,2,0,III,III,intestinal,26,12,body
+GSM1524029,49,T49,MP,Negative,1,21.7,1,31.1,EMT,F,50,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ô,pT4N3,4,3,0,IV,IV,diffuse,31,22,body
+GSM1524030,4,T4,MP,positive,1,27.53,1,31.33,EMT,F,46,"Signet ring cell ca, diffuse",0,4,signet,2,,,,B-¢ô,pT3N1,3,1,0,III,III,diffuse,44,3,cardia
+GSM1524031,50,T50,EP,positive,1,14.13,0,82,TP53positive,M,55,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,,1,B-¢ô,pT2N3,2,3,0,IV,IV,intestinal,42,19,antrum
+GSM1524032,51,Tr_51,EP,negative,1,12.2,1,77.2,MSI,F,70,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ò,pT4N1,4,1,0,IV,IV,intestinal,56,1,antrum
+GSM1524033,52,Tr_52,EP,positive,0,80.27,0,80.83,TP53positive,F,67,"Tubular adenoca, PD, intestinal",1,3,p/d,1,0,,0,B-¢ó,pT2N2M1,2,2,1,IV,IV,intestinal,37,14,body
+GSM1524034,53,Tr_53,EP,positive,1,18.17,1,44.07,TP53positive,M,65,"Tubular adenoca, WD, intestinal",0,1,w/d~m/d,1,1,0,1,B-¢ô,pT3N1,3,1,0,III,III,intestinal,44,1,body
+GSM1524035,54,Tr_54,MP,positive,0,60.43,0,80.3,EMT,F,64,"Tubular adenoca, PD, mixed",0,3,p/d,2,0,0,1,B-¢ô,pT3N3,3,3,0,IV,IV,mixed,25,16,body
+GSM1524036,55,T55,EP,positive,0,71,0,79.93,TP53neg,M,70,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ó,pT3N1,3,1,0,III,III,intestinal,13,3,body
+GSM1524037,56,T56,MP,positive,1,18,1,23.43,TP53neg,M,72,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,1,0,1,B-¢ò,pT3N2,3,2,0,III,III,intestinal,23,7,antrum
+GSM1524038,57,T57,EP,positive,0,8.43,1,8.63,TP53positive,M,74,"Signet ring cell ca, diffuse",0,4,signet,2,1,0,1,B-¢ô,pT2N3M1,2,3,1,IV,IV,diffuse,58,40,entire
+GSM1524039,58,T58,MP,positive,1,11.8,1,12.07,EMT,M,72,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ó,pT3N2,3,2,0,III,III,diffuse,18,9,antrum
+GSM1524040,60,T60,EP,positive,1,18.3,1,36.17,TP53neg,F,55,"Signet ring cell ca, diffuse",0,4,signet,2,0,0,1,B-¢ó,pT3N3,3,3,0,IV,IV,diffuse,53,28,antrum
+GSM1524041,61,T61,MP,positive; MSH2 mutation (+),0,68.43,0,77.33,MSI,M,56,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,0,1,B-¢ó,pT2N3M1,2,3,1,IV,IV,intestinal,41,17,body
+GSM1524042,62,T62,EP,positive,1,0.53,1,10.83,TP53neg,F,62,"Tubular adenoca, PD, diffuse",0,3,p/d,2,0,1,1,B-¢ó,pT2N2,2,2,0,III,III,diffuse,36,11,cardia
+GSM1524043,63,T63,EP,positive,1,4.1,1,16.83,TP53positive,M,60,"Tubular adenoca, PD, diffuse",1,3,p/d,2,0,0,1,B-¢ò,pT2N2M1,2,2,1,IV,IV,diffuse,30,7,body
+GSM1524044,64,Tr_64,MP,positive,1,3.07,1,22.87,TP53neg,M,80,"Tubular adenoca, MD, intestinal",,2,w/d~m/d,1,0,0,0,B-¢ò,pT2N1M1,2,1,1,IV,IV,intestinal,40,4,antrum
+GSM1524045,68,Tr_68,EP,positive,0,64.6,0,89.13,TP53positive,M,33,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,,,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,60,2,body
+GSM1524046,75,Tr_75,MP,positive,0,87.53,0,88.03,TP53neg,F,59,"Adenoca, PD, diffuse",0,3,p/d,2, ,,1,B-¢ó,pT2N1,2,1,0,II,II,diffuse,28,5,antrum
+GSM1524047,77,Tr_77,EP,positive,0,33.97,0,69.87,TP53positive,M,74,"Adenoca, PD, diffuse",0,3,p/d,2,0,,1,B-¢ó,pT2N1,2,1,0,II,II,diffuse,43,5,antrum
+GSM1524048,78,Tr_78,MP,negative,0,36.3,1,46.8,MSI,M,67,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,22,2,antrum
+GSM1524049,79,Tr_79,MP,positive,0,0.5,0,87.8,TP53positive,M,62,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,33,1,body
+GSM1524050,80,Tr_80,EP,positive,1,21.73,1,57.13,TP53positive,M,66,"Adenoca, WD, intestinal",0,1,w/d~m/d,1,1,,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,29,3,antrum
+GSM1524051,81,Tr_81,EP,positive,0,85.03,0,87.27,TP53neg,F,51,"Adenoca, PD, diffuse",0,3,p/d,2,0,,0,B-¢ó,pT2N1,2,1,0,II,II,diffuse,33,2,antrum
+GSM1524052,83,Tr_83,MP,positive,0,8.77,1,13.17,TP53neg,M,74,"Adenoca, PD, diffuse",0,3,p/d,2,1,,1,B-¢ô,pT2N1,2,1,0,II,II,diffuse,42,2,antrum
+GSM1524053,84,Tr_84,EP,negative,0,79.83,0,86.93,TP53positive,M,61,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,1,,1,B-¢ò,pT2N1,2,1,0,II,II,intestinal,31,5,body
+GSM1524054,85,Tr_85,EP,negative,0,12.57,0,86.57,MSI,M,72,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ó,pT2N1,2,1,0,II,II,intestinal,32,1,antrum
+GSM1524055,86,Tr_86,MP,positive,1,12.13,1,37.93,TP53positive,M,54,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-¢ò,pT2N1,2,1,0,II,II,intestinal,18,1,antrum
+GSM1524056,88,Tr_88,EP,positive,1,7.5,1,14.17,TP53neg,M,71,Adenocarcinoma with neuroendocrine differentiation,0,11 Adenocarcinoma with neuroendocrine differentiation,others,1,0,,1,B-¢ñ,pT2N1,2,1,0,II,II,intestinal,24,1,body
+GSM1524057,90,Tr_90,MP,positive,1,14.97,1,15.93,EMT,M,80,"Adenoca, PD, intestinal",0,3,p/d,1,0,,1,B-¢ó,pT4N0,4,0,0,IV,IV,intestinal,10,0,antrum
+GSM1524058,91,Tr_91,MP,positive,0,85.47,0,85.47,EMT,F,56,"Tubular adenoca, PD, intestinal",0,3,p/d,1, ,,0,B-¢ó,pT2N1,2,1,0,II,II,intestinal,65,5,cardia
+GSM1524059,93,Tr_93,MP,positive,0,79.23,0,85.2,EMT,M,58,"Tubular adenoca, PD, diffuse",0,3,p/d,2,1,,0,B-¢ó,pT3N0,3,0,0,II,II,diffuse,32,0,antrum
+GSM1524060,96,Tr_96,EP,negative,0,70.3,0,84.83,TP53positive,M,56,"Papillary adenoca, intestinal",0,6,papillary,1,0,1,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,16,4,body
+GSM1524061,97,Tr_97,EP,positive,0,84.33,0,84.6,MSI,M,77,"Tubular adenoca, WD, intestinal",0,1,w/d~m/d,1,1,0,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,26,4,antrum
+GSM1524062,9,T9,MP,positive,1,43.43,1,70.2,EMT,F,40,"Signet ring cell ca, diffuse",0,4,signet,2, ,,1,B-¢ó,pT3N1,3,1,0,III,III,diffuse,22,2,cardia
+GSM1524068,82,,EP,negative,0,91.23,0,92.87,MSI,F,71,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,0,B-III,pT2N1,2,1,0,II,II,intestinal,30,1,body
+GSM1524069,87,,EP,Negative,0,0.3,1,85.6,MSI,M,63,"Adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,1,B-¢ó,pT2N1,2,1,0,II,II,intestinal,24,5,antrum
+GSM1524070,89,,EP,positive,0,86.2,0,91.63,TP53positive,M,58,"Adenoca, WD, intestinal",0,1,w/d~m/d,1,0,,0,B-¢ó,pT2N1,2,1,0,II,II,intestinal,18,2,body
+GSM1524071,94,,EP,positive,0,85.83,0,90.77,TP53positive,M,60,"Tubular adenoca, MD, intestinal",0,2,w/d~m/d,1,0,,,B-¢ó,pT4N1,4,1,0,III,III,intestinal,68,6,antrum to body
+GSM1524072,95,,EP,positive,0,0.73,1,42.93,TP53neg,F,43,"Adenoca, PD, diffuse",0,3,p/d,2,1,,0,B-¢ó,pT3N2M1,3,2,1,IV,IV,diffuse,26,14,antrum to body
